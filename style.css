@@ -1,0 +1,21 @@
+div .row {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+div .cell {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  background-color: none;
+}
+
+#container {
+  text-align: center;
+}
+
+.hovered {
+  background-color: black;
+}
