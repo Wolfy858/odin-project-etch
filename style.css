@@ -1,15 +1,18 @@
-div .row {
+ul {
   height: 50px;
   width: 50px;
   display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
-div .cell {
-  display: inline-block;
+li {
   height: 50px;
   width: 50px;
   border: 2px solid black;
   background-color: none;
+  list-style-type: none;
+  margin: 0 1px;
 }
 
 #container {
@@ -18,4 +21,13 @@ div .cell {
 
 .hovered {
   background-color: black;
+}
+
+.clicked {
+  background-color: red;
+}
+
+#reset {
+  clear: both;
+  text-align: center;
 }
